@@ -1,0 +1,34 @@
+Para subir este proyecto a GitHub como un nuevo repositorio, sigue estos pasos:
+
+1. **Crea un nuevo repositorio en GitHub:**
+
+   *   Ve a [GitHub](https://github.com/) e inicia sesión en tu cuenta.
+   *   Haz clic en el botón "+" en la esquina superior derecha y selecciona "New repository".
+   *   Elige un nombre para tu repositorio (por ejemplo, "TaskFlow-Kanban").
+   *   Añade una descripción (opcional).
+   *   Elige si quieres que sea público o privado.
+   *   **No marques** la opción "Initialize this repository with a README".
+
+2.  **Conecta tu proyecto local con el repositorio remoto:**
+
+    Abre tu terminal y navega al directorio raíz de tu proyecto (donde se encuentra tu código). Luego, ejecuta los siguientes comandos:
+
+    ```bash
+    git init
+    git add .
+    git commit -m "Initial commit"
+    git remote add origin <URL_DEL_REPOSITORIO>
+    git push -u origin main
+    ```
+
+    Reemplaza `<URL_DEL_REPOSITORIO>` con la URL del repositorio que creaste en GitHub (por ejemplo, `https://github.com/KaicerPirata/TaskFlow-Kanban.git`).
+
+    **Explicación de los comandos:**
+
+    *   `git init`: Inicializa un nuevo repositorio Git en tu directorio local.
+    *   `git add .`: Añade todos los archivos de tu proyecto al área de preparación.
+    *   `git commit -m "Initial commit"`: Crea un commit con un mensaje descriptivo ("Initial commit" en este caso).
+    *   `git remote add origin <URL_DEL_REPOSITORIO>`: Conecta tu repositorio local con el repositorio remoto en GitHub.  `origin` es un nombre abreviado para el repositorio remoto.
+    *   `git push -u origin main`: Sube tu rama local `main` al repositorio remoto `origin`. La opción `-u` establece una relación de seguimiento entre tu rama local y la rama remota, lo que significa que en el futuro podrás usar simplemente `git push` para subir los cambios.
+
+Si todo sale bien, tu proyecto estará ahora en GitHub.
