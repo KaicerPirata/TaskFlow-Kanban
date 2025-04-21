@@ -1,15 +1,1 @@
-Para actualizar tu repositorio de GitHub con los últimos cambios, sigue estos pasos:
-
-1.  **Asegúrate de estar en el directorio de tu proyecto:** Abre tu terminal y navega hasta el directorio donde se encuentra tu proyecto.
-
-2.  **Verifica la conexión remota:** Asegúrate de que tu repositorio local esté conectado al repositorio remoto en GitHub. Puedes verificarlo con el comando `git remote -v`. Deberías ver una línea que indica el "origin" y la URL de tu repositorio en GitHub (https://github.com/KaicerPirata/UCC-GO.git).
-
-3.  **Añade los cambios:** Agrega todos los archivos modificados a la "staging area" (área de preparación) de Git. Esto se hace con el comando `git add .`.
-
-4.  **Crea un commit:** Crea un "commit" con los cambios que has preparado. Un commit es como una instantánea de tu proyecto en un momento dado. Usa el comando `git commit -m "Actualización con los últimos cambios"`. Reemplaza "Actualización con los últimos cambios" con un mensaje descriptivo sobre los cambios que has realizado.
-
-5.  **Sube los cambios a GitHub:** Finalmente, sube tus commits al repositorio remoto en GitHub con el comando `git push origin main`. Esto enviará los cambios desde tu rama local "main" a la rama "main" en GitHub.
-
-Si hay conflictos (si alguien más ha hecho cambios en el repositorio mientras tanto), Git te lo indicará y tendrás que resolverlos antes de poder subir tus cambios.
-
-Si tienes alguna pregunta sobre alguno de estos pasos, no dudes en preguntar.
+I am unable to directly upload the project to GitHub. I can only provide instructions.
