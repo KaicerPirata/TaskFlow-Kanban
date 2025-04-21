@@ -1,0 +1,28 @@
+Para actualizar el repositorio en GitHub con los cambios realizados, sigue estos pasos:
+
+1.  **Asegúrate de tener los cambios guardados localmente:**
+    *   Si has realizado cambios en los archivos de tu proyecto, primero guárdalos.
+
+2.  **Añade los cambios al área de preparación (staging area):**
+    *   Abre tu terminal o línea de comandos en el directorio de tu proyecto.
+    *   Usa el comando `git add .` para añadir todos los archivos modificados al área de preparación. Si quieres añadir archivos específicos, puedes usar `git add <nombre_del_archivo>`.
+
+3.  **Crea un commit con los cambios:**
+    *   Usa el comando `git commit -m "Mensaje descriptivo de los cambios"`. Reemplaza `"Mensaje descriptivo de los cambios"` con un mensaje que explique brevemente qué cambios has realizado. Por ejemplo: `git commit -m "Corrección de errores en la conexión a Firestore y actualización de la interfaz"`.
+
+4.  **Sube los cambios al repositorio remoto (GitHub):**
+    *   Asegúrate de que tu repositorio local esté conectado al repositorio remoto en GitHub. Si no lo está, puedes usar el comando `git remote add origin https://github.com/KaicerPirata/UCC-GO.git`.
+    *   Usa el comando `git push origin main` para subir los commits al repositorio remoto. Si estás trabajando en una rama diferente a `main`, reemplaza `main` con el nombre de tu rama.
+
+**Ejemplo completo:**
+
+```bash
+git add .
+git commit -m "Actualización de la aplicación con las últimas funcionalidades"
+git push origin main
+```
+
+**Notas:**
+
+*   Si es la primera vez que subes cambios a este repositorio desde tu máquina, es posible que te pida que te autentiques con tu cuenta de GitHub.
+*   Si hay conflictos entre tus cambios locales y los cambios en el repositorio remoto, es posible que tengas que resolverlos antes de poder subir tus cambios. Git te indicará cómo hacerlo si esto ocurre.
